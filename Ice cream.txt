@@ -1,0 +1,62 @@
+Microsoft Windows [Version 10.0.19045.3086]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\339073\OneDrive\WEBDEVELOP2023\Django_ice cream>python -m --pip install --upgrade pip
+C:\Program Files\Python310\python.exe: No module named --pip
+
+C:\Users\339073\OneDrive\WEBDEVELOP2023\Django_ice cream>pip install virtualenv
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: virtualenv in c:\users\339073\appdata\roaming\python\python310\site-packages (20.23.1)
+Requirement already satisfied: distlib<1,>=0.3.6 in c:\users\339073\appdata\roaming\python\python310\site-packages (from virtualenv) (0.3.6)
+Requirement already satisfied: filelock<4,>=3.12 in c:\users\339073\appdata\roaming\python\python310\site-packages (from virtualenv) (3.12.2)
+Requirement already satisfied: platformdirs<4,>=3.5.1 in c:\users\339073\appdata\roaming\python\python310\site-packages (from virtualenv) (3.6.0)
+
+C:\Users\339073\OneDrive\WEBDEVELOP2023\Django_ice cream>python -m virtualenv venv2
+created virtual environment CPython3.10.4.final.0-64 in 2699ms
+  creator CPython3Windows(dest=C:\Users\339073\OneDrive\WEBDEVELOP2023\Django_ice cream\venv2, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\339073\AppData\Local\pypa\virtualenv)
+    added seed packages: pip==23.1.2, setuptools==67.8.0, wheel==0.40.0
+  activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+C:\Users\339073\OneDrive\WEBDEVELOP2023\Django_ice cream>.\venv2\scripts\activate
+
+(venv2) C:\Users\339073\OneDrive\WEBDEVELOP2023\Django_ice cream>pip install django
+Collecting django
+  Using cached Django-4.2.3-py3-none-any.whl (8.0 MB)
+Collecting asgiref<4,>=3.6.0 (from django)
+  Using cached asgiref-3.7.2-py3-none-any.whl (24 kB)
+Collecting sqlparse>=0.3.1 (from django)
+  Using cached sqlparse-0.4.4-py3-none-any.whl (41 kB)
+Collecting tzdata (from django)
+  Using cached tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+Collecting typing-extensions>=4 (from asgiref<4,>=3.6.0->django)
+  Downloading typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Installing collected packages: tzdata, typing-extensions, sqlparse, asgiref, django
+Successfully installed asgiref-3.7.2 django-4.2.3 sqlparse-0.4.4 typing-extensions-4.7.1 tzdata-2023.3
+
+(venv2) C:\Users\339073\OneDrive\WEBDEVELOP2023\Django_ice cream>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 00C2-EC5E
+
+ Directory of C:\Users\339073\OneDrive\WEBDEVELOP2023\Django_ice cream
+
+07/09/2023  06:35 PM    <DIR>          .
+07/09/2023  06:35 PM    <DIR>          ..
+07/09/2023  06:34 PM             3,802 Ice cream.txt
+07/09/2023  06:33 PM    <DIR>          venv2
+               1 File(s)          3,802 bytes
+               3 Dir(s)  357,032,218,624 bytes free
+
+(venv2) C:\Users\339073\OneDrive\WEBDEVELOP2023\Django_ice cream>
+
+
+Project  ecommerce2
+App Home...shop
+................
+
+pip venv2 shell  ( try to activate env in code )
+
+
+
+
+
