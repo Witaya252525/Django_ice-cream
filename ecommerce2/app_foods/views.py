@@ -6,3 +6,7 @@ from django.http.response import HttpResponse
 def foods(request):
     return HttpResponse ("อาหาร อร่อย   ส่งรวดเร็ว")
 
+
+def food(request,food_id):
+    return HttpResponse ("เมนู ID = "  + str(food_id))
+
