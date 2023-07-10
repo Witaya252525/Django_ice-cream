@@ -3,8 +3,12 @@ from django.http.response import HttpResponse
 
 # Create your views here.
 
+# def home(request):
+#     return HttpResponse ("จันทร์ไรเดอร์")
+
+
 def home(request):
-    return HttpResponse ("จันทร์ไรเดอร์")
+    return render(request,'app_general/home.html')
 
 
 def about(request):

@@ -51,11 +51,10 @@ Successfully installed asgiref-3.7.2 django-4.2.3 sqlparse-0.4.4 typing-extensio
 
 
 Project  ecommerce2
-App Home...shop
+App Home...foods/general
 ................
 
 pip venv2 shell  ( try to activate env in code )
-
 
 
 
