@@ -1,5 +1,0 @@
-
-1.add include urls in project
-2.add file urls in app
-3.สร้าง page about
-4.การทำ dynanic URLS
