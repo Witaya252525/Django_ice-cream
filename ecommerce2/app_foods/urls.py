@@ -5,6 +5,7 @@ urlpatterns = [
    
     path('', views.foods, name="foods"),
     path('<int:food_id>', views.food, name="food"),
+    path('about/', views.about, name="about"),
    
 
 
