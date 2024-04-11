@@ -2,52 +2,14 @@
 {% extends 'app_foods/base.html' %}
 
 {% block content %}
-<title> {% block site_title %} Witaya | Food FOOD  {% endblock %}</title>
 
      
 <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
   
   
-  <h1 class="display-4 fw-normal">foods foods</h1>
-   {% for food in foods  %}
-       <div style = 'background-color:rgb(244,127,250);'>
-            <h2><a href="{% url 'food'  food.id %}"> {{food.title}}</a> </h2>
-            <h2>{{food.price}} บาท </h2>
-           {% if food.is_premium %}
-            <p> This Menu is premium</p>
-            <p></p>
-
-            {% endif %}
-        </div>       
-       
-       
-       
-       {% comment %} <h2> {{food.id}}  </h2>
-       <h2> {{food.title}}  </h2>
-       <h2> {{food.price}}  </h2>
-       <h2> ----------------  </h2> {% endcomment %}
-       
-       
-   {% empty %}  
-        <P> wITAYA CHAISON</P>
-
-   {% endfor  %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-{% comment %} 
-
-  </div>
+  <h1 class="display-4 fw-normal">Witaya Chaison</h1>
+  <p class="fs-5 text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+</div>
 </header>
 
 <main>
@@ -167,7 +129,7 @@
 
 
 
- {% endcomment %}
+
 
 {% endblock content %}
 
