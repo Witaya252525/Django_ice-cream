@@ -12,12 +12,17 @@
    {% for food in foods  %}
        <div style = 'background-color:rgb(244,127,250);'>
             <h2><a href="{% url 'food'  food.id %}"> {{food.title}}</a> </h2>
-            <h2>{{food.price}} บาท </h2>
+            <h2>{{food.price|floatformat:'g'}} บาท </h2>
            {% if food.is_premium %}
             <p> This Menu is premium</p>
             <p></p>
 
             {% endif %}
+            <p>Promotion {{food.promotion_end_at|date:'j N Y G:I'}}</p>
+
+
+
+
         </div>       
        
        
